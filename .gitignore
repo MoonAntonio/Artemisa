@@ -19,6 +19,8 @@ ExportedObj/
 *.user
 *.unityproj
 *.booproj
+*.lock
+*.vs
  
 # ===================================== #
 # OS 
@@ -33,27 +35,37 @@ ehthumbs.db
 Thumbs.db
 .AppleDouble
 .LSOverride
- 
+
+# ===================================== #
 # Instaladores de Windows
+# ===================================== #
 *.cab
 *.msi
 *.msm
 *.msp
- 
+
+# ===================================== #
 # Configurador de carpetas
+# ===================================== #
 Desktop.ini
- 
+
+# ===================================== #
 # Papelera de reciclaje utilizada en archivos compartidos
+# ===================================== #
 $RECYCLE.BIN/
  
 # ===================================== #
 # Personalizados
 # ===================================== #
-# Relacionado con el Proyecto
 Assets/_Content/GUI
- 
+
+# ===================================== #
 # COPYRIGHTED / ASSET STORE
-Assets/NGUI
- 
+# ===================================== #
+{Carpeta proyecto}/Assets/ThirdParty/*
+{Carpeta proyecto}/Assets/ThirdParty.meta
+
+# ===================================== #
 # GITEYE
+# ===================================== #
 *.project
